@@ -1,0 +1,22 @@
+{
+  "name": "Git & GitHub Academy",
+  "short_name": "Git Academy",
+  "description": "Formation interactive Git et GitHub : démos animées, simulateur, écrans annotés, quiz.",
+  "lang": "fr",
+  "start_url": "./#/",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#0e1118",
+  "theme_color": "#5b3fd0",
+  "categories": ["education"],
+  "icons": [
+    {"src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any"},
+    {"src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any"},
+    {"src": "icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"}
+  ],
+  "shortcuts": [
+    {"name": "Programme", "url": "./#/plan", "icons": [{"src": "icons/icon-192.png", "sizes": "192x192"}]},
+    {"name": "Bac à sable", "url": "./#/sandbox", "icons": [{"src": "icons/icon-192.png", "sizes": "192x192"}]}
+  ]
+}
